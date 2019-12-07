@@ -1,4 +1,4 @@
-# workcation
+# Simple Rental Booking build with tailwind and Vuejs
 
 ## Project setup
 ```
