@@ -1,5 +1,5 @@
 <template>
-		<div id="id" >
+	<div id="id" >
 		<div class="min-h-screen bg-gray-200 antialised xl:flex xl:flex-col xl:h-screen">
 			<SiteHeader class="xl:flex-shrink-0"/>
 				<div class="xl:flex-1 xl:flex xl:overflow-y-hidden">
@@ -12,7 +12,7 @@
 								<div class="mt-10 sm:overflow-x-auto sm:overflow-y-hidden">
 									<div class="sm:inline-flex sm:pt-2 sm:pb-8 xl:px-8">
 										<div v-for="(property , i) in location.properties" :key="i"  :class="{'mt-10 sm:ml-4' : i > 0 }" class="sm:mt-0 sm:w-80 sm:flex-shrink-0">
-											<PropertyCard :property="property"/>	
+											<PropertyCard :property="property"/>
 										</div>
 									</div>
 								</div>
@@ -23,8 +23,8 @@
 		</div>
 		<footer>
 			<!-- <Footer/> -->
-		</footer>	
-		</div>
+		</footer>
+	</div>
 </template>
 
 <script>
@@ -129,7 +129,7 @@ export default {
 				},
 				{
 				title: 'Kisumu',
-				description: "Experience Texas living in these awesome ranch-style homes.",
+				description: "Experience Kisumu living in these awesome ranch-style homes.",
 				properties: [
 					{
 					imageSrc: 'https://images.unsplash.com/photo-1471231681582-352356ab45a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80',
@@ -171,7 +171,7 @@ export default {
 				}
 			],
 		}
-	}	
+	}
 }
 </script>
 

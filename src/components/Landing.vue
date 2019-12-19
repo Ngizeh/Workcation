@@ -21,13 +21,13 @@
                     </h1>
                     <p class="text-gray-600 text-lg mt-4">
                         Workcation helps you find work-friendly rental in beautiful locations so you can enjoy some nice weather even when you are not on vacations.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione delectus recusandae quae neque quia placeat molestiae. Dolor quasi recusandae ex architecto 
-                        dolores. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione delectus recusandae quae neque quia placeat molestiae. Dolor quasi recusandae ex architecto
+                        dolores.
                     </p>
-                    <p class="text-gray-600 text-lg mt-4">    
+                    <p class="text-gray-600 text-lg mt-4">
                         Tempore enim tenetur magnam nisi iusto repudiandae, delectus corrupti, expedita atque officiis sunt ea. Rerum nesciunt consequatur sed, libero
-                        fugit praesentium optio itaque fugiat. Rerum ipsa fugiat modi illum, vero natus tempora eveniet, quos praesentium aut facere cum dignissimos 
-                        animi recusandae, sapiente nisi aliquam placeat omnis laboriosam quibusdam hic. Eos optio nobis voluptate praesentium voluptatem libero ipsa 
+                        fugit praesentium optio itaque fugiat. Rerum ipsa fugiat modi illum, vero natus tempora eveniet, quos praesentium aut facere cum dignissimos
+                        animi recusandae, sapiente nisi aliquam placeat omnis laboriosam quibusdam hic. Eos optio nobis voluptate praesentium voluptatem libero ipsa
                     </p>
                     <div class="mt-6">
                         <router-link to="/home" class="bg-indigo-500 shadow-lg uppercase hover:bg-indigo-400 text-white px-5 py-3 inline-block rounded-lg font-semibold tracking-wide">Book your escape</router-link>
@@ -35,11 +35,29 @@
                 </div>
             </div>
         </div>
-        <div class="h-64 bg-gray-300">
-            <p class="flex justify-around pt-10 uppercase font-semibold">
-                Something should go here
-                <!-- todo -->
-            </p>
+        <div class="bg-gray-300">
+            <div class="pb-10">
+                <p class="flex justify-around pt-10 uppercase font-semibold mt-8 text-xl sm:text-3xl md:text-3xl lg:text-2xl lg:mt-12 font-bold text-gray-900 leading-tight">
+                    We are offering this season
+                </p>
+
+                <div class="sm:block md:flex md:items-center lg:flex lg:items-center">
+                    <div v-for="(property, index) in properties" :key="index" class="p-10">
+                        <div class="bg-white shadow-lg">
+                            <img :src="property.imageSrc" alt="" class="w-full object-cover">
+                            <div class="px-6 py-4">
+                                <div class="font-bold text-xl mb-2 text-gray-800">{{ property.title }}</div>
+                                <p class="text-base text-gray-700">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quis dolore totam maiores unde porro laudantium esse vitae non inventore.
+                                </p>
+                                <button type="button" class="mt-6 py-2 px-3 rounded-lg text-white font-medium bg-indigo-500">
+                                Book Now
+                               </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div>
             <Footer/>
@@ -48,9 +66,46 @@
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+import Footer from '@/components/Footer';
 export default {
- components : { Footer }
+ components : { Footer },
+ data(){
+    return {
+        properties:
+        [
+            {
+                imageSrc: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                beds: 3,
+                baths: 2,
+                title: "Modern home in city center",
+                price: 190000,
+                reviewCount: 34,
+                rating: 4,
+            },
+            {
+                imageSrc: 'https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                beds: 4,
+                baths: 1,
+                title: "Quiet living outside the city",
+                price: 175000,
+                reviewCount: 12,
+                rating: 3,
+            },
+            {
+                imageSrc: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+                beds: 3,
+                baths: 2,
+                title: "Family home in the suburbs",
+                price: 115000,
+                reviewCount: 34,
+                rating: 4,
+            },
+        ]
+    }
+ },
+ created : function() {
+    console.log(this.properties)
+ }
 }
 </script>
 
