@@ -50,9 +50,11 @@
                                 <p class="text-base text-gray-700">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quis dolore totam maiores unde porro laudantium esse vitae non inventore.
                                 </p>
-                                <button type="button" class="mt-6 py-2 px-3 rounded-lg text-white font-medium bg-indigo-500">
-                                Book Now
-                               </button>
+                                <div class="mt-6">
+                                    <router-link to="/home" class="py-2 px-3 rounded text-white font-medium bg-indigo-500">
+                                    Book Now
+                                   </router-link>
+                                </div>
                             </div>
                         </div>
                     </div>
