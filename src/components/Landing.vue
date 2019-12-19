@@ -37,7 +37,7 @@
         </div>
         <div class="bg-gray-300">
             <div class="pb-10">
-                <p class="flex justify-around pt-10 uppercase font-semibold mt-8 text-xl sm:text-3xl md:text-3xl lg:text-2xl lg:mt-12 font-bold text-gray-900 leading-tight">
+                <p class="flex justify-around pt-10 uppercase font-semibold mt-8 text-xl sm:text-3xl md:text-3xl lg:text-2xl lg:mt-12 font-bold text-indigo-600 leading-tight">
                     We are offering this season
                 </p>
 
