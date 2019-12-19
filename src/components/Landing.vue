@@ -105,9 +105,6 @@ export default {
         ]
     }
  },
- created : function() {
-    console.log(this.properties)
- }
 }
 </script>
 
