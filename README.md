@@ -1,5 +1,9 @@
 # Simple Rental Booking build with tailwind and Vuejs
 
+Priview of the Finished App
+
+![](/src/assets/images/Workcation.png)
+
 ## Project setup
 ```
 npm install
