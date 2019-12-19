@@ -2,7 +2,7 @@
 
 Priview of the Finished App
 
-![](/src/assets/images/Workcation.png)
+![](/public/images/Workcation.png)
 
 ## Project setup
 ```
