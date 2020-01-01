@@ -1,6 +1,8 @@
-# Simple Rental Booking build with tailwind and Vuejs
+# Simple Rental Booking build with tailwind and Vuejs.
 
-Priview of the Finished App
+## Build with Vuejs and TailwindCSS.
+
+Preview of the Finished App
 
 ![](/public/images/Workcation.png)
 
