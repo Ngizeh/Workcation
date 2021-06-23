@@ -4,6 +4,8 @@
 
 Preview of the Finished App
 
+It is live check it [Here](https://rental-vacations.vercel.app/).
+
 ![](/public/images/Workcation.png)
 
 ## Project setup
