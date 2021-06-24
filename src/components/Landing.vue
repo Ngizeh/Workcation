@@ -29,6 +29,21 @@
                         fugit praesentium optio itaque fugiat. Rerum ipsa fugiat modi illum, vero natus tempora eveniet, quos praesentium aut facere cum dignissimos
                         animi recusandae, sapiente nisi aliquam placeat omnis laboriosam quibusdam hic. Eos optio nobis voluptate praesentium voluptatem libero ipsa
                     </p>
+                    <p class="hidden lg:block text-gray-600 text-lg mt-4">
+                        Tempore enim tenetur magnam nisi iusto repudiandae, delectus corrupti, expedita atque officiis sunt ea. Rerum nesciunt consequatur sed, libero
+                        fugit praesentium optio itaque fugiat. Rerum ipsa fugiat modi illum, vero natus tempora eveniet, quos praesentium aut facere cum dignissimos
+                        animi recusandae, sapiente nisi aliquam placeat omnis laboriosam quibusdam hic. Eos optio nobis voluptate praesentium voluptatem libero ipsa
+                    </p>
+                    <p class="hidden lg:block text-gray-600 text-lg mt-4">
+                        Tempore enim tenetur magnam nisi iusto repudiandae, delectus corrupti, expedita atque officiis sunt ea. Rerum nesciunt consequatur sed, libero
+                        fugit praesentium optio itaque fugiat. Rerum ipsa fugiat modi illum, vero natus tempora eveniet, quos praesentium aut facere cum dignissimos
+                        animi recusandae, sapiente nisi aliquam placeat omnis laboriosam quibusdam hic. Eos optio nobis voluptate praesentium voluptatem libero ipsa
+                    </p>
+                    <p class="hidden lg:block text-gray-600 text-lg mt-4">
+                        Tempore enim tenetur magnam nisi iusto repudiandae, delectus corrupti, expedita atque officiis sunt ea. Rerum nesciunt consequatur sed, libero
+                        fugit praesentium optio itaque fugiat. Rerum ipsa fugiat modi illum, vero natus tempora eveniet, quos praesentium aut facere cum dignissimos
+                        animi recusandae, sapiente nisi aliquam placeat omnis laboriosam quibusdam hic. Eos optio nobis voluptate praesentium voluptatem libero ipsa
+                    </p>
                     <div class="mt-6">
                         <router-link to="/home" class="bg-indigo-500 shadow-lg uppercase hover:bg-indigo-400 text-white px-5 py-3 inline-block rounded-lg font-semibold tracking-wide">Book your escape</router-link>
                     </div>
